@@ -503,6 +503,13 @@ political_decisions = {
 		effect = {
 			badboy = 6
 			any_greater_power = {
+				#limit = {
+				#	OR = {	
+				#		tag = FRA
+				#		tag = ENG
+				#		tag = SPA
+				#	}
+				#}
 				relation = {
 					who = USA
 					value = -150
