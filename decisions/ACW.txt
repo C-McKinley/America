@@ -836,5 +836,7 @@ political_decisions = {
 	#Coinage Act of 1864
 	#Reconstruction
 	#Southern Acceptance After Civil War
-	#
+	#"Pledge of Allegiance"
+	#Open Door Policy
+	#Gold Standard Act
 }
