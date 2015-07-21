@@ -1103,5 +1103,15 @@ country_event = {
 		#Rockefeller and Oil
 		#Boston Fire
 		#American Red Cross
-		#General Electirc 
+		#General Electirc
+		#Marines invade Hawaii
+		#Parliament of the World's Relgions
+		#Panic of 1893?
+		#United Mine Workers
+		#Klondike Gold Rush?
+		#USS Maine explodes
+		#Philippine–American War
+		# Great Blizzard of 1899
+		# Mile-a-Minute Murphy
+		# electric bus 
 }
