@@ -5,7 +5,10 @@ political_decisions = {
 			exists = USA
 			AND = {
 				capital_scope = {continent = north_america}
-				NOT = { tag = MEX}
+				NOT = { 
+					tag = MEX
+					tag = USA
+				}
 			      }
 		}
 		allow = {
@@ -826,4 +829,12 @@ political_decisions = {
 		}
 	
 	}
+	#state banks event
+	#treaty of wanghia
+	#Enforce Monroe Doctorine
+	#Tanscontinintal Railroad
+	#Coinage Act of 1864
+	#Reconstruction
+	#Southern Acceptance After Civil War
+	#
 }
