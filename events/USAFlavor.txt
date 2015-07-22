@@ -1123,4 +1123,10 @@ country_event = {
 		#A ball signifying New Year's Day drops in New York City's Times Square for the first time.
 		# Great Fire of 1910 
 		#United States Supreme Court declares Standard Oil to be an "unreasonable" monopoly
+		# Ford Motor Company introduces the first moving assembly line
+		# Federal Reserve is created 
+		#NACA
+		#First KKK
+		#Second KKK
+		# 18th Amendment to the United States Constitution, authorizing Prohibition
 }
