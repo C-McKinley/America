@@ -839,4 +839,5 @@ political_decisions = {
 	#"Pledge of Allegiance"
 	#Open Door Policy
 	#Gold Standard Act
+	#Indepence of Panama
 }
