@@ -840,4 +840,8 @@ political_decisions = {
 	#Open Door Policy
 	#Gold Standard Act
 	#Indepence of Panama
+	# Federal Reserve is created 
+	#NACA
+	# Danish West Indies is sold to the United States for $30 million.
+	# 18th Amendment to the United States Constitution, authorizing Prohibition
 }
