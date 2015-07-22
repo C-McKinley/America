@@ -1113,5 +1113,14 @@ country_event = {
 		#Philippine–American War
 		# Great Blizzard of 1899
 		# Mile-a-Minute Murphy
-		# electric bus 
+		# electric bus
+		#Department of Commerce and Labor founded
+		# Great Baltimore Fire
+		# Industrial Workers of the World
+		#1905 Chicago Teamsters' strike
+		# 1906 San Francisco earthquake
+		#April 17 goes down as the busiest day of immigration in the history Ellis Island
+		#A ball signifying New Year's Day drops in New York City's Times Square for the first time.
+		# Great Fire of 1910 
+		#United States Supreme Court declares Standard Oil to be an "unreasonable" monopoly
 }
