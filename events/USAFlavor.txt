@@ -1129,4 +1129,13 @@ country_event = {
 		#First KKK
 		#Second KKK
 		# 18th Amendment to the United States Constitution, authorizing Prohibition
+		#Steel strike of 1919
+		#Palmer Raids
+		# 19th Amendment to US Constitution is passed, guaranteeing women's suffrage.
+		#First domestic radio sets come to stores in USA – Westinghouse radio costs $10.
+		#Roaring Twenties (1920–1929)
+		# In New York City the first Macy's Thanksgiving Day Parade is held.
+		#New York City becomes the largest city in the world, taking the lead from London
+		# Air Commerce Act, licensing pilots and planes.
+		# U.S. Route 66 is established.
 }
