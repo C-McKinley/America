@@ -1138,4 +1138,19 @@ country_event = {
 		#New York City becomes the largest city in the world, taking the lead from London
 		# Air Commerce Act, licensing pilots and planes.
 		# U.S. Route 66 is established.
+		#St. Valentine's Day Massacre
+		# Wall Street Crash of 1929:
+		#Great Depression: U.S. President Herbert Hoover announces
+		President Herbert Hoover goes before Congress and asks for a US$150 million public works program to help 				#generate jobs and stimulate the economy.
+		#The Scottsboro Boys are arrested in Alabama and charged with rape.
+		#Nevada legalizes gambling.
+		#Mount Rushmore National Memorial is dedicated.
+		# New Deal legislation.
+		# Executive Order 6102, making it illegal for U.S. citizens to own gold.
+		#The United States officially goes off the gold standard.
+		# National Guard Bureau founded.
+		# United States Army Disciplinary Barracks on Alcatraz is acquired by the United States Department of 					#Justice
+		# 21st Amendment to the United States Constitution,
+		#Business Plot?
+		#Social Security Act 
 }
