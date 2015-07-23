@@ -848,4 +848,12 @@ political_decisions = {
 	# 19th Amendment to US Constitution is passed, guaranteeing women's suffrage.
 	# Air Commerce Act, licensing pilots and planes.
 	# U.S. Route 66 is established.
+	#President Herbert Hoover goes before Congress and asks for a US$150 million public works program to help generate 			#jobs and stimulate the economy.
+	#Mount Rushmore National Memorial is dedicated.
+	# New Deal legislation.
+	# Executive Order 6102, making it illegal for U.S. citizens to own gold.
+	#The United States officially goes off the gold standard.
+	# National Guard Bureau founded.
+	# 21st Amendment to the United States Constitution,
+	#Social Security Act 
 }
