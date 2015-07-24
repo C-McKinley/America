@@ -858,6 +858,7 @@ political_decisions = {
 			year = 1845
 			Not = {
 				has_country_flag = treaty_of_wanghia_signed
+				open_door_policy_signed
 			}
 			CHI = {
 				civilized = no
@@ -933,9 +934,68 @@ political_decisions = {
 		}
 			
 	#Coinage Act of 1864
-	#Southern Acceptance After Civil War
+	coinage_act_of_1864 = {
+		potential = {
+			tag = USA
+			year = 1864
+			Not = {
+				has_country_flag = coinage_act_of_1864_signed
+			}
+		}
+		allow = {
+			modern_central_bank_system = 1
+		}
+		effect = {
+			prestige = 25
+			set_country_flag = coinage_act_of_1864_signed
+		}
+	}
+	
 	#"Pledge of Allegiance"
+	pledge_of_allegiance = {
+		potential = {
+			tag = USA
+			year = 1892
+			Not = {
+				has_country_flag = pledge_of_allegiance_active
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			global_assimilation_rate = 0.1
+			set_country_flag = pledge_of_allegiance_active
+		}
+	}
+
 	#Open Door Policy
+	open_door_policy = {
+		potential = {
+			has_country_flag = treaty_of_wanghia_signed
+			tag = USA
+			Not = {
+				has_country_flag = open_door_policy_signed
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			mass_politics = 1
+		}
+		
+		effect = {
+			clr_country_flag = treaty_of_wanghia_signed
+			set_country_flag = open_door_policy_signed
+			relation = {
+				who = CHI
+				value = 100
+			}
+		}
+	}
+			
 	#Gold Standard Act
 	#Indepence of Panama
 	# Federal Reserve is created 
