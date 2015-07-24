@@ -829,12 +829,110 @@ political_decisions = {
 		}
 	
 	}
+
 	#state banks event
+	state_banks = {
+		potential = {
+			tag = USA
+			year = 1837
+			Not = {
+				has_country_flag = state_banks_active
+			}
+		}
+		
+		allow = {
+			private_banks = 1
+		}
+		
+		effect = {
+			money = 5000
+			set_country_flag = state_banks_active
+		}
+	}
+			
+	
 	#treaty of wanghia
+	treaty_of_wanghia = {
+		potential = {
+			tag = USA
+			year = 1845
+			Not = {
+				has_country_flag = treaty_of_wanghia_signed
+			}
+			CHI = {
+				civilized = no
+			}
+		}
+
+		allow = {
+			Not ={
+				war_with = CHI
+			}
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = treaty_of_wanghia_signed
+		}
+			
 	#Enforce Monroe Doctorine
+	enforce_monroe_doctorine = {
+		potential = {
+			tag = USA
+			is_greater_power = yes
+			Not = {
+				has_country_flag = monroe_doctorine_enforced
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = monroe_doctorine_enforced
+			any_country = {
+				limit= {
+					capital_scope = {continent = europe}
+				}
+				any_owned = {
+					limit = { 
+						state_scope = {continent = north_america} 
+					}
+					add_core =  USA
+				}
+				#add cb here in future	
+			}
+				
+		}
+			
+	}
+	
 	#Tanscontinintal Railroad
+	transcontinintal_railroad = {
+		potential = {
+			iron_railroad = 1
+			tag = USA
+			owns = 86 #Sacramento
+			owns = 123 #Omaha
+			Not = {
+				has_country_flag = transcontinintal_railroad_built
+			}
+		}
+		
+		allow = {
+			money = 20000
+		}
+		effect = {
+			set_country_flag = transcontinintal_railroad_built
+			money = -20000
+			timber = 5000
+			steel = 5000
+			cement = 5000
+		}
+			
 	#Coinage Act of 1864
-	#Reconstruction
 	#Southern Acceptance After Civil War
 	#"Pledge of Allegiance"
 	#Open Door Policy
