@@ -1327,8 +1327,63 @@ political_decisions = {
 	}
 
 	#National Guard Bureau founded
+	national_guard = {
+		potential = {
+			tag = USA
+			Not = {
+				has_country_flag = national_guard_created
+			}
+		}
+		
+		allow = {
+			prestige = 1
+		}
+		
+		effect {
+			militancy  = 1
+			#increase soldiers
+		}
+	}
+
 	#21st Amendment to the United States Constitution
+	end_prohibition = {
+		potential = {
+			tag = USA
+			has_country_flag = prohibition_active
+			Not = {	has_country_flag = prohibition_recalled }
+		}
+		
+		allow = {
+			prestige = 30
+		}
+		
+		effect = {
+			set_country_flag = prohibition_recalled
+			prestige = -30
+		}
+	}
+
 	#Social Security Act 
+	social_secuirty_act = {
+		potential = {
+			tag = USA
+			money = 10000
+			#gd active
+			Not = {
+				has_country_flag = social_security_act_signed
+			}
+		}
+		
+		allow = {
+			year = 1935
+		}	
+		
+		effect = {
+			money = -10000
+			#select good pensions
+			set_country_flag = social_security_act_signed
+		}
+	}
 
 	############################
 	#Note that women's suffrage and prohibition implemented under politics.txt
